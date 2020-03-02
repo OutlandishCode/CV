@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--HTML Boilerplate-->
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- meta ELEMENT and charset ATTRIBUTE gives extra data to the file; here it's linked to character set encoding-->
+  <meta charset="utf-8">
+  <!-- all unicode can be included in utf-8-->
+  <!-- meta tags "description" also add detail especially for SEARCH ENGINES-->
+  <title>Luke's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20"><!--this should be in CSS-->
+    <tr>
+      <td><img src="/Users/ldw/OneDrive/Documents/IT and Tech/Udemy/2020 Web Dev Bootcamp/Web Development/HTML - Personal Site/smallscale.jpg" alt="Luke black & white profile"></td>
+      <!--use something like photobucket to host the desired images-->
+      <!--if the webhost is longer hosting your image or anything, we can add the image to the base html foolder-->
+      <td>
+        <h1>Luke Williams</h1>
+          <p><em>Creator of <strong>OutlandishCode</strong></em></p>
+          <p>Born and raised in Bath, UK, Luke has enjoyed a portfolio career across healthcare,
+            the Arts, deaf education and is now moving forward into I.T</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Education</h3>
+  <p>
+    <ul>
+      <li>Udemy.com and beyond - 2020
+        <!--Here the unordered lists can be nested internally by leaving the first </li> tag off the sub-sections
+      and then adding an <ol> or <ul>-->
+        <ul>
+          <li>CompTIA A+</li>
+          <li>CompTIA Network+</li>
+          <li>Web Development Bootcamp</li>
+        </ul>
+<br> <!-- <a> is the anchor tag ELEMENT, the href= is the ATTRIBUTE,
+  the ""> is the LINK DESTINATION,
+  and the text between the >and</a> is the LINK TEXT-->
+      <li><a href="https://www.signworldlearn.com/">SignWorld</a>, Bristol/Bath
+        <ul>
+          <li>British Sign Language Level 3 (IBSL)</li>
+        </ul>
+ <br>
+      <li>Royal College of Music, London
+        <ul>
+          <li>Artist Diploma in Opera Studies</li>
+        </ul>
+<br>
+      <li>University of the West of England, Bristol
+        <ul>
+          <li>BSc(Hons) Adult Nursing Studies</li>
+        </ul
+<br>
+      <li>Kng Edward's School, Bath
+        <ul>
+          <li>A-levels and GCSEs</li>
+        </ul>
+<br>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+  <tr>
+    <th>Dates</th> <!-- table row tr, table header cell th ELEMENTS can be used one their own inside the main table-->
+    <th>Role</th>
+  </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>date-date</td>
+        <td>job title/role</td>
+      </tr>
+      <tr>
+        <td>date-date</td>
+        <td>another job title</td>
+      </tr>
+    </tbody>
+    <tfoot></tfoot>
+  </table>
+
+<br>
+<!--example of the above
+<table>
+    <tr>
+      <th>DATES</th>
+      <th>ROLES</th>
+    </tr>
+    <tr>
+      <td>date-date</td>
+      <td>job title/role</td>
+    </tr>
+    BUT writing it out in full allows us to isolate, style, fixed headers etc
+</table>-->
+<hr>
+<h3>Skills</h3>
+
+<!--<table>
+  <tr>
+    <td>
+      <table>
+          <tr>
+            <td>British Sign Language</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Opera singing</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+      </table>
+    </td>
+    <td><table>
+        <tr>
+          <td>Paintless Dent Repair</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Cookery</td>
+          <td>⭐</td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+My 1st attempt below. Tutor work directly above where she has NESTED the table inside a higher <td>-->
+<table cellspacing="10">
+    <tr>
+      <td>British Sign Language</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>Paintless Dent Repair</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Opera singing</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Cookery</td>
+      <td>⭐</td>
+    </tr>
+</table>
+
+    <hr>
+    <!--here we cut/paste the <ol> to a satellite page created at the same hierachical level-->
+<a href="hobbies.html">Hobbies</a>
+<a href="contactme.html">Contact Details</a>
+  </p>
+</body>
+<!--DEPRACATED means ill-advised, yes it's possible to in-line code everything in html, we should use CSS and JS-->
+</html>
